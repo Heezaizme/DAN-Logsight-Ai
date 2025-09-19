@@ -20,7 +20,7 @@ except Exception as e:
 
 # App Info
 APP_NAME = "DAN"
-APP_VERSION = "v1.0"
+APP_VERSION = "v37.0"
 AUTHOR_NAME = "Danish Mir"
 LINKEDIN_URL = "https://www.linkedin.com/in/danishahmadmir/"
 CONTACT_EMAIL = "Heezaizme@gmail.com"
@@ -1769,4 +1769,5 @@ RECOMMENDATION:
 if __name__ == "__main__":
     root = tk.Tk()
     app = DANApp(root)
+
     root.mainloop()
