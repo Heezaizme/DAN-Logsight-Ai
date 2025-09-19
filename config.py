@@ -2,7 +2,7 @@
 import os
 
 # 🔐 Wazuh API Settings
-WAZUH_URL = "https://10.118.20.164:55000"  #Change this ip when you have test it
+WAZUH_URL = "https://10.118.xx.xx:55000"  #Change this ip when you have test it
 WAZUH_USER = "wazuh_user"
 WAZUH_PASSWORD = "wazuh"  # 🔴 CHANGE ME!
 VERIFY_SSL = False
@@ -26,4 +26,5 @@ for path in [DATA_DIR, INCIDENTS_DIR, DIAGRAMS_DIR, REPORTS_DIR]:
 
 # 🎨 App Info
 APP_TITLE = "DAN LogSight AI 🔍"
+
 COMPANY_LOGO = "https://i.imgur.com/9XK7V0P.png"
