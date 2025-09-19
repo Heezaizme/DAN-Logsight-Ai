@@ -1,0 +1,8 @@
+requests
+python-docx
+matplotlib
+networkx
+pandas
+openpyxl
+Pillow
+numpy
